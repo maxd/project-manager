@@ -3,6 +3,7 @@ class CreateResources < ActiveRecord::Migration
     create_table :resources do |t|
       t.string :first_name
       t.string :last_name
+      t.string :email
       t.decimal :focus_factor
 
       t.timestamps

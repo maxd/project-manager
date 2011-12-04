@@ -96,6 +96,7 @@ ActiveRecord::Schema.define(:version => 20111204123045) do
   create_table "resources", :force => true do |t|
     t.string   "first_name"
     t.string   "last_name"
+    t.string   "email"
     t.decimal  "focus_factor", :precision => 10, :scale => 0
     t.datetime "created_at"
     t.datetime "updated_at"
